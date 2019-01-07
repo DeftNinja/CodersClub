@@ -70,18 +70,48 @@
     </header>
     <!--/#header-->
 
-    <section id="home-slider">
-        <div class="container">
-            <div class="main-slider">
-                <div class="slide-text">
-                    <h1>We Are Creative Nerds</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi expedita rem facere, accusantium laboriosam delectus atque asperiores. Impedit vero reprehenderit nihil, quaerat fugiat asperiores doloremque delectus cum, libero id adipisci.</p>
-                    <a href="#" class="btn btn-common">Know more</a>
+    <div id="carousel-container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators visible-xs">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="http://placehold.it/1140x487/green" alt="">
+                    <div class="carousel-caption">
+                        <h3>First slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1140x487/blue" alt="">
+                    <div class="carousel-caption">
+                        <h3>Second slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="http://placehold.it/1140x487/red" alt="">
+                    <div class="carousel-caption">
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
                 </div>
             </div>
+            <a class="left carousel-control hidden-xs" href="#carousel-example-generic" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control hidden-xs" href="#carousel-example-generic" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
         </div>
-        <div class="preloader"><i class="fa fa-sun-o fa-spin"></i></div>
-    </section>
+        <!--/#carousel-example-generic-->
+    </div>
+    <!--/#carousel-container-->
+
+
     <!--/#home-slider-->
 
     <section id="clients">
@@ -101,7 +131,7 @@
     <section id="features">
         <div class="container">
             <div class="row">
-                <h1>Vision and Goals</h1>
+                <h1 class="title">Vision and Goals</h1>
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
                         <img src="images/home/image1.png" class="img-responsive" alt="">
@@ -133,12 +163,49 @@
         </div>
     </section>
     <!--/#features-->
+    <!--- Counter --->
+    <section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+        <div class="container">
+            <div class="row">
+                <h1 class="title">Some Interesting Numbers</h1>
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <div class="counting" data-count="900000">0</div>
+                    <h5>Lines of code</h5>
+                </div>
 
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-check" aria-hidden="true"></i>
+                    <div class="counting" data-count="280">0</div>
+                    <h5>Projects done</h5>
+                </div>
+
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <div class="counting" data-count="75">0</div>
+                    <h5>Happy clients</h5>
+                </div>
+
+                <div class="col-lg-3 stats">
+                    <i class="fa fa-coffee" aria-hidden="true"></i>
+                    <div class="counting" data-count="999">0</div>
+                    <h5>Cups of coffee</h5>
+                </div>
+
+
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+
+    </section>
+
+    <!-- end cont stats -->
     <!--- Upcoming events --->
     <section id="services">
         <div class="container">
             <div class="row">
-                <h1>Upcoming events</h1>
+                <h1 class="title">Upcoming events</h1>
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
@@ -184,17 +251,8 @@
                                 <a href="#"><img src="images/home/profile1.png" alt=""></a>
                             </div>
                             <div class="media-body">
-                                <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
-                                <h3><a href="#">- Jhon Kalis</a></h3>
-                            </div>
-                        </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
-                                <h3><a href="">- Abraham Josef</a></h3>
+                                <blockquote>They designed a website for us and it is really good. Thank you codevelopers!</blockquote>
+                                <h3><a href="#">- dtoxd.ai</a></h3>
                             </div>
                         </div>
                     </div>
@@ -210,10 +268,10 @@
 
                         <h2>Address</h2>
                         <address>
-                            Unit C2, St.Vincent's Trading Est., <br>
-                            Feeder Road, <br>
-                            Bristol, BS2 0UY <br>
-                            United Kingdom <br>
+                            Agnel Technical Education Complex<br>
+                            Sector 9-A, Vashi, Navi Mumbai,<br>
+                            Maharashtra, India<br>
+                            PIN - 400703<br>
                         </address>
                     </div>
                 </div>
@@ -238,8 +296,7 @@
                 </div>
                 <div class="col-sm-12">
                     <div class="copyright-text text-center">
-                        <p>&copy; Your Company 2014. All Rights Reserved.</p>
-                        <p>Designed by <a target="_blank" href="http://www.themeum.com">Themeum</a></p>
+                        <p>&copy; Codevelopers 2019. All Rights Reserved.</p>
                     </div>
                 </div>
             </div>
@@ -252,6 +309,7 @@
     <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/wow.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/counter.js"></script>
 </body>
 
 </html>
