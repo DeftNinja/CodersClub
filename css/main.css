@@ -736,6 +736,7 @@ ul.sub-menu {
 
 #clients {
     padding-bottom: 45px;
+    margin-top: 5em;
 }
 
 .clients {
@@ -2600,7 +2601,6 @@ section#counter-stats {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 100px;
 }
 
 .stats {
@@ -2608,6 +2608,7 @@ section#counter-stats {
     font-size: 35px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
+    margin: 1em auto;
 }
 
 .stats .fa {
@@ -2616,3 +2617,11 @@ section#counter-stats {
 }
 
 /*/ end count stats /*/
+
+.sub-title {
+    text-align: center;
+}
+
+section#services {
+    margin-top: 5em;
+}
