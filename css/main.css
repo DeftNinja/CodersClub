@@ -12,12 +12,12 @@
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700);
 
 body {
-    background: #fff;
+    background: #0B0C10;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 14px;
     line-height: 22px;
-    color: #000;
+    color: #C5C6C7;
 }
 
 html {
@@ -26,13 +26,13 @@ html {
 
 
 a {
-    color: #a5732a;
+    color: #45A29E;
 }
 
 a:hover {
     outline: none;
     text-decoration: none;
-    color: #dab074;
+    color: #66FCF1;
 }
 
 a:focus {
@@ -61,12 +61,12 @@ h6 {
 }
 
 h1 {
-    color: #686868;
+    color: #66FCF1;
 }
 
 h2 {
     font-size: 24px;
-    color: #686868;
+    color: #45A29E;
 }
 
 h3 {
@@ -83,8 +83,8 @@ h3 {
 
 .btn-common {
     font-size: 14px;
-    color: #797979;
-    border: 1px solid #dbb075;
+    color: #C5C6C7;
+    border: 1px solid #66FCF1;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     padding: 10px 25px;
@@ -237,7 +237,7 @@ h3 {
 }
 
 #header .navbar {
-    background: #fff;
+    background: #0B0C10;
     border: 0;
     margin-bottom: 0;
 }
@@ -261,7 +261,7 @@ h3 {
 }
 
 #header .navbar-nav.navbar-right > li a {
-    color: #000;
+    color: #C5C6C7;
     font-size: 12px;
     padding: 20px;
     text-transform: uppercase;
@@ -274,11 +274,11 @@ h3 {
 .navbar-inverse .navbar-nav > .open > a {
     background-color: inherit;
     border: 0;
-    color: #d29948;
+    color: #66FCF1;
 }
 
 #header .navbar-inverse .navbar-nav li a:hover {
-    color: #d29948;
+    color: #45A29E;
 }
 
 
@@ -371,10 +371,11 @@ ul.sub-menu {
 
 #footer {
     padding-bottom: 75px;
-    background-image: url(../images/home/footer.png);
+    background-image: url(../images/footer.png);
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: contain;
+    padding-top: 5em;
 }
 
 #footer h1 {
@@ -459,7 +460,7 @@ ul.sub-menu {
 }
 
 .form-control {
-    border: 1px solid #d99c4e;
+    border: 1px solid #45A29E;
     font-weight: 300;
     outline: none;
     -webkit-box-shadow: none;
@@ -469,7 +470,7 @@ ul.sub-menu {
 
 .form-control:hover,
 .form-control:focus {
-    border-color: #d29948;
+    border-color: #66FCF1;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -477,15 +478,15 @@ ul.sub-menu {
 
 .btn-submit {
     width: 100%;
-    background-color: #d89b4e;
-    color: #fff;
+    background-color: #66FCF1;
+    color: #0B0C10;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 5px;
     text-transform: uppercase;
     border-radius: 3px;
     margin-top: 5px;
-    border-bottom: 3px solid #a56617;
+    border-bottom: 3px solid #45A29E;
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 10px;
@@ -493,7 +494,7 @@ ul.sub-menu {
 
 .btn-submit:hover,
 .btn-submit:focus {
-    color: #fff;
+    color: #0B0C10;
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -670,8 +671,8 @@ ul.sub-menu {
 }
 
 .sun {
-    background-image: url(../images/home/tour-icon1.png);
-    background-repeat: no-repeat;
+    background-image: url(../images/home/tour-icon1.jpg);
+    background-repeat: repeat-x;
     background-position: 100% bottom;
 }
 
@@ -714,7 +715,7 @@ ul.sub-menu {
 }
 
 .title {
-    color: #404040;
+    color: #66FCF1;
     font-weight: 300;
     text-align: center;
 }
@@ -799,7 +800,7 @@ ul.sub-menu {
 }
 
 .social-profile {
-    background: none repeat scroll 0 0 rgba(137, 97, 46, 0.8);
+    background: none repeat scroll 0 0 #45A29E;
     display: none;
     height: 100%;
     position: absolute;
@@ -1526,7 +1527,7 @@ Blog Default
     border-left-style: solid;
     border-left-width: 1px;
     height: 100%;
-    border-left-color: #dab074;
+    border-left-color: #66FCF1;
     left: 50%;
     margin-left: -2px;
 }
@@ -1541,7 +1542,7 @@ Blog Default
 
 .timeline-date .btn-common {
     font-size: 18px;
-    color: #4a4a4a;
+    color: #C5C6C7;
     font-weight: 300;
     border-radius: 0;
     padding: 17px 40px;
@@ -2238,11 +2239,11 @@ span.stButton_gradient,
 
 #error-page i,
 #coming-soon i {
-    border: 1px solid #cc9b59;
+    border: 1px solid #66FCF1;
     height: 40px;
     width: 40px;
     line-height: 40px;
-    color: #cc9b59;
+    color: #66FCF1;
     font-size: 17px;
     margin: 0 15px;
     border-radius: 50%;
@@ -2252,8 +2253,8 @@ span.stButton_gradient,
 
 #error-page i:hover,
 #coming-soon i:hover {
-    background-color: #cc9b59;
-    color: #fff;
+    background-color: #66fcf1;
+    color: #66fcf1;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -2284,7 +2285,7 @@ span.stButton_gradient,
 }
 
 .bg-404 {
-    background-image: url("../images/home/tour-bg.png");
+    background-image: url("../images/home/tour-icon2.jpg");
     background-repeat: repeat-x;
     background-position: center top;
 }
@@ -2326,11 +2327,11 @@ span.stButton_gradient,
 
 #error-page i,
 #coming-soon i {
-    border: 1px solid #cc9b59;
+    border: 1px solid #66fcf1;
     height: 40px;
     width: 40px;
     line-height: 40px;
-    color: #cc9b59;
+    color: #66fcf1;
     font-size: 17px;
     margin: 0 15px;
     border-radius: 50%;
@@ -2340,7 +2341,7 @@ span.stButton_gradient,
 
 #error-page i:hover,
 #coming-soon i:hover {
-    background-color: #cc9b59;
+    background-color: #45A29E;
     color: #fff;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -2362,7 +2363,7 @@ span.stButton_gradient,
 }
 
 #coming-soon {
-    background-image: url("../images/home/tour-bg.png");
+    background-image: url("../images/home/tour-icon1.jpg");
     background-position: center top;
     background-repeat: repeat-x;
     padding: 40px 0;
@@ -2601,6 +2602,7 @@ section#counter-stats {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+    padding-top: 5em;
 }
 
 .stats {
@@ -2624,4 +2626,11 @@ section#counter-stats {
 
 section#services {
     margin-top: 5em;
+    background: #1F2833;
+    padding: 5em;
+}
+
+section#features {
+    background: #1F2833;
+    padding-top: 5em;
 }
