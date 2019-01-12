@@ -403,7 +403,7 @@ ul.sub-menu {
 }
 
 .bottom .media-body h3 a {
-    color: #d99c4e;
+    color: #66FCF1;
 }
 
 .testimonial .media {
@@ -433,7 +433,7 @@ ul.sub-menu {
     top: 8px;
     content: '"';
     font-size: 40px;
-    color: #d99c4e;
+    color: #66FCF1;
     font-family: 'Noto Sans', sans-serif;
     transform: rotate(180deg);
     -ms-transform: rotate(180deg);
@@ -449,7 +449,7 @@ ul.sub-menu {
     bottom: 14px;
     content: '"';
     font-size: 40px;
-    color: #d99c4e;
+    color: #66FCF1;
     font-family: 'Noto Sans', sans-serif;
     line-height: 0;
 }
@@ -846,8 +846,8 @@ ul.sub-menu {
 }
 
 .social-profile .nav-pills li a:hover {
-    color: #89612e;
-    border-color: #89612e;
+    color: #45A29E;
+    border-color: #45A29E;
 }
 
 .person-info h2 {
@@ -1755,14 +1755,14 @@ Blog with right sidebar
 }
 
 .audiojs .progress {
-    background: #a5732a;
+    background: #45A29E;
 
     height: 8px;
     border-radius: 10px;
 }
 
 .audiojs .loaded {
-    background: #ba9663;
+    background: #66FCF1;
     height: 8px;
     border-radius: 10px;
 }
@@ -2482,7 +2482,7 @@ span.stButton_gradient,
 }
 
 #subscribe .fa-envelope-o {
-    color: #dab074;
+    color: #66F2F1;
     margin-right: 5px;
 }
 
@@ -2518,11 +2518,11 @@ span.stButton_gradient,
 }
 
 #coming-soon-footer a {
-    color: #d89b4e;
+    color: #45A29E;
 }
 
 #coming-soon-footer a:hover {
-    color: #b38040
+    color: #45A29E;
 }
 
 /*Shortcodes CSS*/
@@ -2563,7 +2563,7 @@ span.stButton_gradient,
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-    background-color: #dab074;
+    background-color: #66F2F1;
 }
 
 .tab-content {
@@ -2633,4 +2633,101 @@ section#services {
 section#features {
     background: #1F2833;
     padding-top: 5em;
+}
+
+.fa:hover,
+.fa:focus,
+.fa:active,
+.fa:after {
+    color: #66F2F1;
+}
+
+.fa:hover,
+.fa:focus,
+.fa:active,
+.fa:-moz-any-link,
+.fa:after {
+    color: #66F2F1;
+}
+
+.fa:hover,
+.fa:focus,
+.fa:active,
+.fa:-webkit-any-link,
+.fa:after {
+    color: #66F2F1;
+}
+
+.fa:hover,
+.fa:focus,
+.fa:active,
+.fa:any-link,
+.fa:after {
+    color: #66F2F1;
+}
+
+.carousel-caption p {
+    font-family: Roboto, sans-serif;
+    font-size: 84px;
+    text-align: center;
+    color: #fff;
+}
+
+span {
+    display: inline-block;
+}
+
+strong {
+    color: #000;
+    background-color: #66F2F1;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+
+.btn-link {
+    color: #f1494c;
+    font-size: 14px;
+    margin-top: 50px;
+    font-weight: 700;
+    display: block;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    background-color: transparent;
+    text-decoration: none;
+    outline: 0;
+}
+
+.btn-link span:nth-child(even),
+.btn-link span:nth-child(odd) {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.btn-link:hover {
+    color: #f1494c;
+}
+
+.btn-link span,
+.btn-link:hover span {
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    display: inline-block;
+}
+
+.btn-link:hover span:nth-child(odd) {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.btn-link:hover span:nth-child(even) {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+
+.btn-link img {
+    margin-left: 10px;
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
 }

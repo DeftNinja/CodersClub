@@ -1,26 +1,11 @@
-// number count for stats, using jQuery animate
+var arr = ["Designers.", "Illustrators.", "Geeks.", "Coders' Club.", ];
+var i = 0;
 
-$('.counting').each(function() {
-  var $this = $(this),
-      countTo = $this.attr('data-count');
-
-  $({ countNum: $this.text()}).animate({
-    countNum: countTo
-  },
-
-  {
-
-    duration: 3000,
-    easing:'linear',
-    step: function() {
-      $this.text(Math.floor(this.countNum));
-    },
-    complete: function() {
-      $this.text(this.countNum);
-      //alert('finished');
+function changeText() {
+    if (i != arr.length) {
+        $("strong").text(arr[i]);
+        i++;
     }
+};
 
-  });
-
-
-});
+var t = setInterval(changeText, 800);
