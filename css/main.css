@@ -716,7 +716,7 @@ ul.sub-menu {
 
 .title {
     color: #66FCF1;
-    font-weight: 300;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -2626,12 +2626,12 @@ section#counter-stats {
 
 section#services {
     margin-top: 5em;
-    background: #1F2833;
+    background: #353d47;
     padding: 5em;
 }
 
 section#features {
-    background: #1F2833;
+    background: #353d47;
     padding-top: 5em;
 }
 
@@ -2727,4 +2727,21 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.single-service button {
+    background: #66F2F1;
+    color: #000;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+.single-service button:hover {
+    background: #45A29E;
+    color: #000;
+    border-radius: 10px;
 }
