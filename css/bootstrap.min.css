@@ -7655,7 +7655,8 @@ button.close {
 
 .carousel-caption {
     position: absolute;
-    top: 50%;
+    top: 35%;
+    padding-right: 20em;
     z-index: 10;
     padding-top: 20px;
     padding-bottom: 20px;

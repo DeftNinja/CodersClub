@@ -2666,7 +2666,7 @@ section#features {
     color: #66F2F1;
 }
 
-.carousel-caption p {
+.carousel-caption {
     font-family: Roboto, sans-serif;
     font-size: 84px;
     text-align: center;
@@ -2680,54 +2680,51 @@ span {
 strong {
     color: #000;
     background-color: #66F2F1;
+    font-weight: 800;
 }
 
-@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+.jumbotron h1 {
+    font-weight: 300;
+    padding: 1em 0em;
+}
 
-.btn-link {
-    color: #f1494c;
-    font-size: 14px;
-    margin-top: 50px;
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+.jumbotron button {
+    position: relative;
+    background: #1F2833;
+    border: 1px solid #1F2833;
+    padding: 20px;
+    margin-bottom: 6%;
+    font-size: 0.9em;
+    color: #FFF;
+    -webkit-box-shadow: 4px 4px 4px 0px #fff;
+    box-shadow: 4px 4px 4px 0px #fff;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    display: block;
-    letter-spacing: 0.56px;
+    letter-spacing: 5px;
     text-transform: uppercase;
-    background-color: transparent;
-    text-decoration: none;
-    outline: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    left: 0%;
+    top: 0;
 }
 
-.btn-link span:nth-child(even),
-.btn-link span:nth-child(odd) {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+button:hover {
+    left: 4px;
+    top: 4px;
+    -webkit-box-shadow: 0 0 0 0 #45A29E;
+    box-shadow: 0 0 0 0 #45A29E;
 }
 
-.btn-link:hover {
-    color: #f1494c;
-}
-
-.btn-link span,
-.btn-link:hover span {
-    -webkit-transition: all 0.35s ease;
-    transition: all 0.35s ease;
-    display: inline-block;
-}
-
-.btn-link:hover span:nth-child(odd) {
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
-}
-
-.btn-link:hover span:nth-child(even) {
-    -webkit-transform: translateY(5px);
-    transform: translateY(5px);
-}
-
-.btn-link img {
-    margin-left: 10px;
-    vertical-align: middle;
-    border-style: none;
-    max-width: 100%;
-    height: auto;
+.jumbotron {
+    background-image: url(../images/home/slider-1.jpg);
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
