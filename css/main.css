@@ -262,10 +262,10 @@ h3 {
 
 #header .navbar-nav.navbar-right > li a {
     color: #C5C6C7;
-    font-size: 12px;
+    font-size: 13px;
     padding: 20px;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 800;
 }
 
 #header .navbar-inverse .navbar-nav li.active > a,
@@ -1080,7 +1080,7 @@ ul.elements li > i {
     border-radius: 0;
     color: #686868;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
     padding: 0 25px;
     text-transform: capitalize;
     border: none;
